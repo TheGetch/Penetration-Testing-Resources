@@ -3,7 +3,7 @@
 Complilation of resources pertaining to penetration testing.
 
 See thegetch.github.io for listings:
-https://thegetch.github.io/penetration/testing/resources/2019/08/09/Home/
+https://thegetch.github.io/penetration/testing/resources/2020/07/24/Home/
 
 Or 
 
