@@ -7,5 +7,5 @@ https://thegetch.github.io/penetration/testing/resources/2020/07/24/Home/
 
 Or 
 
-See Wiki:
+See Wiki (Outdated):
 https://github.com/TheGetch/Penetration-Testing-Resources/wiki
