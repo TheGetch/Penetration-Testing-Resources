@@ -18,7 +18,7 @@ def cookie():
 
     # Redirect user back to hompage
 
-    return redirect("http://TARGET_SITE/")
+    return redirect("http://TARGET_SITE/") # **Update this**
 
 if __name__ == "__main__":
     app.run(host = '0.0.0.0', port=5000) # 0.0.0.0 - listen on all public IPs
