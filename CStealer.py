@@ -13,9 +13,9 @@ def cookie():
     f.write(cookie + ' ' + str(datetime.now()) + '\n')
     f.close()
 
-    # redirect user back to hompage
+    # Redirect user back to hompage
 
     return redirect("http://TARGET_SITE/")
 
 if __name__ == "__main__":
-    app.run(host = '0.0.0.0', port=5000) # 0.0.0.0 - listen on all poublic IPs
+    app.run(host = '0.0.0.0', port=5000) # 0.0.0.0 - listen on all public IPs
